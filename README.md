@@ -1,10 +1,72 @@
 # *Project 1*
 # *Bank Locker Management System using PHP and MySql*
-Sistem manajemen locker bank ini bertujuan untuk mengatur penggunaan locker secara efisien dan aman. Dalam sistem ini, pengguna hanya memiliki akses untuk menghubungi admin dan mencari kode locker yang telah diberikan kepada mereka. Sistem manajemen locker bank ini dirancang agar pengguna hanya dapat menghubungi admin dan mencari kode locker mereka. Hanya admin yang memiliki wewenang untuk mendaftarkan locker baru. Intinya, sistem ini digunakan untuk mengelola locker yang ada di bank tersebut.
+This bank locker management system aims to manage locker use efficiently and safely. In this system, users only have access to contact the admin and look for the locker code that has been given to them. This bank locker management system is designed so that users can just contact the admin and search for their locker code. Only admins have permission to register new lockers. In essence, this system is used to manage lockers at the bank.
 
 # *Project 2*
 # *⁠Directory Management System using PHP and MySQL*
-Sistem manajemen direktori ini dirancang khusus untuk mengelola kartu nama dengan efisien. Dalam sistem ini, pengguna hanya diberikan akses untuk melihat dan mencari kartu nama yang sudah ada di dalam database. Sistem manajemen direktori ini dirancang untuk mengelola kartu nama. Pengguna hanya dapat melihat dan mencari kartu nama yang tersedia, sementara admin memiliki kemampuan untuk menambahkan, melihat, mengedit, dan menghapus kartu nama. Sistem ini memastikan bahwa informasi kartu nama dikelola dengan baik dan selalu diperbarui sesuai kebutuhan.
+This directory management system is specifically designed to manage business cards efficiently. In this system, users are only given access to view and search for business cards that already exist in the database. This directory management system is designed to manage business cards. Users can only view and search for available business cards, while admins have the ability to add, view, edit and delete business cards. This system ensures that business card information is well managed and always updated as needed.
+
+### Installation
+
+1. **Download and Install XAMPP:**
+
+   - Download XAMPP from the [official website](https://www.apachefriends.org/index.html).
+   - Install XAMPP and start the Apache and MySQL modules from the XAMPP Control Panel.
+
+2. **Clone the Repository:**
+
+   - Clone this repository to your local machine or download the ZIP file and extract it.
+
+     ```bash
+     git clone https://github.com/rafliafriza12/kelompok1-MVC.git
+     ```
+
+3. **Import the Database:**
+
+   - Open phpMyAdmin by navigating to `http://localhost/phpmyadmin/`.
+   - Create new databases named `dmsdb` and `wlmsdb`.
+
+4. **Install Composer**
+   - `https://getcomposer.org/download/`
+
+### Running the Projects
+
+1. **Open terminal and run this following command:**
+
+   ```bash
+   composer install
+   ```
+
+   ```bash
+   composer update
+   ```
+
+   If you want to open client-management-system project:
+   ```bash
+   cd Kelompok4-MVC\mvc-client-management-system\public
+   ```
+   If you want to open gym-management-system project:
+   ```bash
+   cd Kelompok4-MVC\mvc-gym-management-system\public
+   ```
+
+   ```bash
+   php -S localhost:8000
+   ```
+
+2. **Open http://localhost:8000 on your browser:**
+
+## Project Structure
+
+### MVC Structure
+
+Each project follows the MVC pattern with the following directory structure:
+
+- `models/`: Contains all the model classes for database interaction.
+- `views/`: Contains all the view files for rendering the user interface.
+- `controllers/`: Contains all the controller classes for handling the logic and user input.
+- `config/`: Contains configuration files, including database configuration.
+- `public/`: Contains publicly accessible files such as index.php and assets (CSS, JS, images).
 
 # kelompok1-MVC
 
