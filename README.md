@@ -41,11 +41,11 @@ This directory management system is specifically designed to manage business car
    composer update
    ```
 
-   If you want to open client-management-system project:
+   If you want to open Bank Locker Management System project:
    ```bash
    cd kelompok1-MVC\Bank-Locker-Management-system\public
    ```
-   If you want to open gym-management-system project:
+   If you want to open Directori Management System project:
    ```bash
    cd kelompok1-MVC\DMS\public
    ```
