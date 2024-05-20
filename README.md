@@ -24,7 +24,8 @@ This directory management system is specifically designed to manage business car
 3. **Import the Database:**
 
    - Open phpMyAdmin by navigating to `http://localhost/phpmyadmin/`.
-   - Create new databases named `dmsdb` and `wlmsdb`.
+   - Create new databases named `dmsdb` and `blmsdb`.
+   - Import the SQL files `blmsdb.sql` into `blmsdb` and `dmsdb.sql` into `dbmsdb`.
 
 4. **Install Composer**
    - `https://getcomposer.org/download/`
