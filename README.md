@@ -43,11 +43,11 @@ This directory management system is specifically designed to manage business car
 
    If you want to open client-management-system project:
    ```bash
-   cd Kelompok4-MVC\mvc-client-management-system\public
+   cd kelompok1-MVC\Bank-Locker-Management-system\public
    ```
    If you want to open gym-management-system project:
    ```bash
-   cd Kelompok4-MVC\mvc-gym-management-system\public
+   cd kelompok1-MVC\DMS\public
    ```
 
    ```bash
