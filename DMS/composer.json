@@ -1,0 +1,12 @@
+{
+    "name": "dms/dms",
+    "description": "A simple MVC application.",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
